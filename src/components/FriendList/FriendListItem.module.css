@@ -1,0 +1,22 @@
+.itemContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 500;
+}
+.text {
+    margin: 0;
+    font-size: 20px;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: tomato;
+}
