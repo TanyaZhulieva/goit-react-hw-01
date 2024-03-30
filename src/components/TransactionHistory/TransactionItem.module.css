@@ -1,3 +1,6 @@
 .dataCell {
     border: 2px solid #504c4c;
+    width: 300px;
+    text-align: center;
 }
+

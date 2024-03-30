@@ -3,6 +3,8 @@
     width: 900px;
     margin: 0 auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-bottom: 50px;
 }
 
 .head {
@@ -12,4 +14,9 @@
 
 .headCell {
     border: 2px solid #504c4c;
+    width: 300px;
 }
+
+.tableRow:nth-child(2n) {
+    background-color: #d0cdcd;
+  }
