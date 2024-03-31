@@ -1,4 +1,4 @@
-import TransactionItem from "./TransactionItem.jsx";
+import TransactionItem from "../TransactionItem/TransactionItem.jsx";
 import css from "./TransactionHistory.module.css"
 
 export default function TransactionHistory({items}) {
@@ -13,7 +13,7 @@ export default function TransactionHistory({items}) {
   </thead>
 
   <tbody>
-    {items.map(item =>  <tr className={css.tableRow} key="item.id">
+    {items.map(item =>  <tr className={css.tableRow} key={item.id}>
       <TransactionItem type={item.type}
       amount={item.amount}
       currency={item.currency}
